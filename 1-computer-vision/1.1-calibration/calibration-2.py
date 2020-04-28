@@ -14,7 +14,7 @@ img = cv2.imread('test_image.png')
 
 
 # TODO: Write a function that takes an image, object points, and image points
-# performs the camera calibration, image distortion correction and
+# performs the camera 1.1-calibration, image distortion correction and
 # returns the undistorted image
 def cal_undistort(img, objpoints, imgpoints):
     # Use cv2.calibrateCamera() and cv2.undistort()

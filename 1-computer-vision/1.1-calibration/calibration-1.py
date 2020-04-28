@@ -7,7 +7,7 @@ import matplotlib.image as mpimg
 nx = 0#TODO: enter the number of inside corners in x
 ny = 0#TODO: enter the number of inside corners in y
 
-# Make a list of calibration images
+# Make a list of 1.1-calibration images
 fname = 'calibration_test.png'
 img = cv2.imread(fname)
 
